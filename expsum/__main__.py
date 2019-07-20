@@ -14,6 +14,7 @@ Examples
 >>> python expsum func6 2000 4
 >>> python expsum func7 8000 4
 """
+
 import argparse
 import numpy as np
 import functions

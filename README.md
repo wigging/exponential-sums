@@ -1,6 +1,12 @@
 # Exponential Sums
 
-The `expsum` package plots several functions as exponential sums. This work is inspired by John Cook's article [Exponential sums make pretty pictures][1].
+The `expsum` package plots several functions as exponential sums. This work is inspired by John Cook's article "[Exponential sums make pretty pictures][1]".
+
+An exponential sum is represented by the formula 
+
+<img src="assets/expsum.pdf" height="90"/>
+
+where f is a real-valued function defined on positive integers.
 
 ## Installation and Usage
 
@@ -12,15 +18,96 @@ python expsum func1
 
 ## Examples
 
-Functions available for plotting are listed below.
+Functions available in the `expsum` package are listed below. Examples of plotting each function as an exponential sum are also provided. 
 
 ### Function 1
 
-Here.
+<img src="assets/func1eq.pdf" height="50"/>
+
+```bash
+>>> python expsum func1 2000 10 7 17
+```
+
+<img src="assets/func1a.pdf" height="400"/>
+
+```bash
+>>> python expsum func1 8000 11 21 31
+```
+
+<img src="assets/func1b.pdf" height="400"/>
 
 ### Function 2
 
-Here.
+<img src="assets/func2eq.pdf" height="50"/>
+
+```bash
+>>> python expsum func2 1200 100
+```
+
+<img src="assets/func2a.pdf" height="400"/>
+
+```bash
+>>> python expsum func2 4000 800
+```
+
+<img src="assets/func2b.pdf" height="400"/>
+
+### Function 3
+
+<img src="assets/func3eq.pdf" height="30"/>
+
+```bash
+>>> python expsum func3 1000
+```
+
+<img src="assets/func3a.pdf" height="400"/>
+
+```bash
+>>> python expsum func3 4000
+```
+
+<img src="assets/func3b.pdf" height="400"/>
+
+### Function 4
+
+<img src="assets/func4eq.pdf" height="30"/>
+
+```bash
+>>> python expsum func4 4000 4
+```
+
+<img src="assets/func4a.pdf" height="400"/>
+
+### Function 5
+
+<img src="assets/func5eq.pdf" height="40"/>
+
+```bash
+python expsum func5 4000 50 100
+```
+
+<img src="assets/func5a.pdf" height="400"/>
+
+### Function 6
+
+<img src="assets/func6eq.pdf" height="40"/>
+
+```bash
+>>> python expsum func6 2000 4
+```
+
+<img src="assets/func6a.pdf" height="400"/>
+
+### Function 7
+
+<img src="assets/func7eq.pdf" height="40"/>
+
+```bash
+>>> python expsum func7 8000 4
+```
+
+<img src="assets/func7a.pdf" height="400"/>
+
 
 ## Contributing
 
