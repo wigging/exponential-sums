@@ -1,9 +1,12 @@
 """
 Exponential sum functions.
 
+Create an animated plot with the optional --anim argument.
+
 Examples
 --------
 >>> python expsum func1 2000 10 7 17
+>>> python expsum func1 2000 10 7 17 --anim
 >>> python expsum func1 8000 11 21 31
 >>> python expsum func2 1200 100
 >>> python expsum func2 4000 800

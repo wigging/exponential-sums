@@ -1,28 +1,36 @@
 # Exponential Sums
 
-The `expsum` package plots several functions as exponential sums. This work is inspired by John Cook's article "[Exponential sums make pretty pictures][1]".
+An exponential sum is represented by the following equation
 
-An exponential sum is represented by the formula 
+<img src="assets/expsum.pdf" height="80"/>
 
-<img src="assets/expsum.pdf" height="90"/>
+where the exponential is a complex number. The function f(n) is a real-valued function defined for a sequence of positive integers. The Python package `expsum` plots the exponential sum in the complex plane as a progression of partial sums. The x-axis on the plot is the real part and the y-axis is the imaginary part.
 
-where f is a real-valued function defined on positive integers.
+This project is inspired by John Cook's article "[Exponential sums make pretty pictures][1]".
 
 ## Installation and Usage
 
-Just clone this repository and run the following command:
+Requires Python 3, NumPy, and Matplotlib.
+
+Clone this repository and run the following command:
 
 ```bash
-python expsum func1
+>>> python expsum func1 2000 10 7 17
+```
+
+Create an animated plot by passing the optional `--anim` argument:
+
+```bash
+>>> python expsum func1 2000 10 7 17 --anim
 ```
 
 ## Examples
 
-Functions available in the `expsum` package are listed below. Examples of plotting each function as an exponential sum are also provided. 
+Examples of the functions available in the `expsum` package are shown below.
 
 ### Function 1
 
-<img src="assets/func1eq.pdf" height="50"/>
+<img src="assets/func1eq.pdf" height="45"/>
 
 ```bash
 >>> python expsum func1 2000 10 7 17
@@ -38,7 +46,7 @@ Functions available in the `expsum` package are listed below. Examples of plotti
 
 ### Function 2
 
-<img src="assets/func2eq.pdf" height="50"/>
+<img src="assets/func2eq.pdf" height="45"/>
 
 ```bash
 >>> python expsum func2 1200 100
@@ -54,7 +62,7 @@ Functions available in the `expsum` package are listed below. Examples of plotti
 
 ### Function 3
 
-<img src="assets/func3eq.pdf" height="30"/>
+<img src="assets/func3eq.pdf" height="25"/>
 
 ```bash
 >>> python expsum func3 1000
@@ -70,7 +78,7 @@ Functions available in the `expsum` package are listed below. Examples of plotti
 
 ### Function 4
 
-<img src="assets/func4eq.pdf" height="30"/>
+<img src="assets/func4eq.pdf" height="22"/>
 
 ```bash
 >>> python expsum func4 4000 4
@@ -80,7 +88,7 @@ Functions available in the `expsum` package are listed below. Examples of plotti
 
 ### Function 5
 
-<img src="assets/func5eq.pdf" height="40"/>
+<img src="assets/func5eq.pdf" height="45"/>
 
 ```bash
 python expsum func5 4000 50 100
@@ -90,7 +98,7 @@ python expsum func5 4000 50 100
 
 ### Function 6
 
-<img src="assets/func6eq.pdf" height="40"/>
+<img src="assets/func6eq.pdf" height="48"/>
 
 ```bash
 >>> python expsum func6 2000 4
@@ -100,7 +108,7 @@ python expsum func5 4000 50 100
 
 ### Function 7
 
-<img src="assets/func7eq.pdf" height="40"/>
+<img src="assets/func7eq.pdf" height="48"/>
 
 ```bash
 >>> python expsum func7 8000 4
@@ -108,20 +116,20 @@ python expsum func5 4000 50 100
 
 <img src="assets/func7a.pdf" height="400"/>
 
-
 ## Contributing
 
-Submit a Pull Request if you would like to contribute to this project. Questions and other comments can be submitted on the Issues page. Or you can leave me a tip to show your appreciation of open source code.
+Submit a Pull Request if you would like to contribute to this project. Questions and other comments can be submitted on the Issues page. Another way to contribute is by making a small donation to the Tip Jar.
 
 ## Tip Jar
 
-If you have found this project interesting, please consider making a donation at [paypal.me/gavinwiggins](https://www.paypal.me/gavinwiggins). Thank you 😁
+Support this project by making a donation at [paypal.me/gavinwiggins](https://www.paypal.me/gavinwiggins). Thank you 😁
 
 ## References
 
-1. John D. Cook. Exponential sums make pretty pictures. October 7, 2017. [Link][1]
-2. David Angell. Exponential sums. School of Mathematics and Statistics, UNSW. Accessed July 7, 2019. [Link][2]
-3. here
+1. John D. Cook. [Exponential sums make pretty pictures][1]. October 7, 2017.
+2. David Angell. [Exponential sums][2]. School of Mathematics and Statistics, UNSW. Accessed July 7, 2019.
+3. Wikipedia contributors. [Exponential sum][3]. In Wikipedia, The Free Encyclopedia. Accessed July 20, 2019.
 
 [1]: https://www.johndcook.com/blog/2017/10/07/exponential-sums-make-pretty-pictures/
 [2]: https://www.maths.unsw.edu.au/about/exponential-sums
+[3]: https://en.wikipedia.org/wiki/Exponential_sum
