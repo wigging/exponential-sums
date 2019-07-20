@@ -36,13 +36,13 @@ Examples of the functions available in the `expsum` package are shown below.
 >>> python expsum func1 2000 10 7 17
 ```
 
-<img src="assets/func1a.pdf" height="400"/>
+<img src="assets/func1a.png" height="400"/>
 
 ```bash
 >>> python expsum func1 8000 11 21 31
 ```
 
-<img src="assets/func1b.pdf" height="400"/>
+<img src="assets/func1b.png" height="400"/>
 
 ### Function 2
 
@@ -52,13 +52,13 @@ Examples of the functions available in the `expsum` package are shown below.
 >>> python expsum func2 1200 100
 ```
 
-<img src="assets/func2a.pdf" height="400"/>
+<img src="assets/func2a.png" height="400"/>
 
 ```bash
 >>> python expsum func2 4000 800
 ```
 
-<img src="assets/func2b.pdf" height="400"/>
+<img src="assets/func2b.png" height="400"/>
 
 ### Function 3
 
@@ -68,13 +68,13 @@ Examples of the functions available in the `expsum` package are shown below.
 >>> python expsum func3 1000
 ```
 
-<img src="assets/func3a.pdf" height="400"/>
+<img src="assets/func3a.png" height="400"/>
 
 ```bash
 >>> python expsum func3 4000
 ```
 
-<img src="assets/func3b.pdf" height="400"/>
+<img src="assets/func3b.png" height="400"/>
 
 ### Function 4
 
@@ -84,7 +84,7 @@ Examples of the functions available in the `expsum` package are shown below.
 >>> python expsum func4 4000 4
 ```
 
-<img src="assets/func4a.pdf" height="400"/>
+<img src="assets/func4a.png" height="400"/>
 
 ### Function 5
 
@@ -94,7 +94,7 @@ Examples of the functions available in the `expsum` package are shown below.
 python expsum func5 4000 50 100
 ```
 
-<img src="assets/func5a.pdf" height="400"/>
+<img src="assets/func5a.png" height="400"/>
 
 ### Function 6
 
@@ -104,7 +104,7 @@ python expsum func5 4000 50 100
 >>> python expsum func6 2000 4
 ```
 
-<img src="assets/func6a.pdf" height="400"/>
+<img src="assets/func6a.png" height="400"/>
 
 ### Function 7
 
@@ -114,7 +114,7 @@ python expsum func5 4000 50 100
 >>> python expsum func7 8000 4
 ```
 
-<img src="assets/func7a.pdf" height="400"/>
+<img src="assets/func7a.png" height="400"/>
 
 ## Contributing
 
