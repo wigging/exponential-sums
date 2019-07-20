@@ -2,7 +2,7 @@
 
 An exponential sum is represented by the following equation
 
-<img src="assets/expsum.pdf" height="80"/>
+<img src="assets/expsum.png" height="80"/>
 
 where the exponential is a complex number. The function f(n) is a real-valued function defined for a sequence of positive integers. The Python package `expsum` plots the exponential sum in the complex plane as a progression of partial sums. The x-axis on the plot is the real part and the y-axis is the imaginary part.
 
@@ -30,7 +30,7 @@ Examples of the functions available in the `expsum` package are shown below.
 
 ### Function 1
 
-<img src="assets/func1eq.pdf" height="45"/>
+<img src="assets/func1eq.png" height="45"/>
 
 ```bash
 >>> python expsum func1 2000 10 7 17
@@ -46,7 +46,7 @@ Examples of the functions available in the `expsum` package are shown below.
 
 ### Function 2
 
-<img src="assets/func2eq.pdf" height="45"/>
+<img src="assets/func2eq.png" height="45"/>
 
 ```bash
 >>> python expsum func2 1200 100
@@ -62,7 +62,7 @@ Examples of the functions available in the `expsum` package are shown below.
 
 ### Function 3
 
-<img src="assets/func3eq.pdf" height="25"/>
+<img src="assets/func3eq.png" height="25"/>
 
 ```bash
 >>> python expsum func3 1000
@@ -78,7 +78,7 @@ Examples of the functions available in the `expsum` package are shown below.
 
 ### Function 4
 
-<img src="assets/func4eq.pdf" height="22"/>
+<img src="assets/func4eq.png" height="22"/>
 
 ```bash
 >>> python expsum func4 4000 4
@@ -88,7 +88,7 @@ Examples of the functions available in the `expsum` package are shown below.
 
 ### Function 5
 
-<img src="assets/func5eq.pdf" height="45"/>
+<img src="assets/func5eq.png" height="45"/>
 
 ```bash
 python expsum func5 4000 50 100
@@ -98,7 +98,7 @@ python expsum func5 4000 50 100
 
 ### Function 6
 
-<img src="assets/func6eq.pdf" height="48"/>
+<img src="assets/func6eq.png" height="48"/>
 
 ```bash
 >>> python expsum func6 2000 4
@@ -108,7 +108,7 @@ python expsum func5 4000 50 100
 
 ### Function 7
 
-<img src="assets/func7eq.pdf" height="48"/>
+<img src="assets/func7eq.png" height="48"/>
 
 ```bash
 >>> python expsum func7 8000 4
