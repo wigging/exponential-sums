@@ -1,5 +1,7 @@
 # Exponential Sums
 
+Exponential sums are an area of math represented by a series with terms that are complex exponentials. These types of sums are related to Fourier analysis and number theory. Plotting exponential sums produces various designs based on the type of input function.
+
 An exponential sum is represented by the following equation
 
 <img src="assets/expsum.png" height="80"/>
@@ -118,9 +120,9 @@ python expsum func5 4000 50 100
 
 ## Contributing
 
-Submit a Pull Request if you would like to contribute to this project. Questions and other comments can be submitted on the Issues page. Another way to contribute is by making a small donation to the Tip Jar.
+Submit a Pull Request if you would like to contribute to this project. Questions and other comments can be submitted on the Issues page.
 
-## Tip Jar
+## Support
 
 Support this project by making a donation at [paypal.me/gavinwiggins](https://www.paypal.me/gavinwiggins). Thank you 😁
 
